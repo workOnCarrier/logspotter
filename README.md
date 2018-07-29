@@ -28,6 +28,6 @@ As of this writing, this will be one of the following options.
 * token based lookup
     * e.g. a system specific identifier to be looked up across the files
 
-Other misc features (optional):
-* suppression log lines by thread-id where threadid is identifiable in the lines
-
+## Other misc features (optional):
+* suppression of log lines by thread-id where threadid is identifiable in the lines
+* suppression of log lines matching a reg-ex pattern
