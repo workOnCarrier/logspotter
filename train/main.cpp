@@ -1,5 +1,4 @@
 
-
 #include <iostream>
 #include "mylist.h"
 
@@ -18,7 +17,8 @@ void try_list(){
 	int_list.insert(4);
 	int_list.insert(6);
 	int_list.insert(8);
-	int_list.display()
+
+	int_list.display();
 
 	cout << endl;
 }
