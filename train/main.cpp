@@ -1,9 +1,7 @@
 
 
 #include <iostream>
-#include <list>
-
-
+#include "mylist.h"
 
 using namespace std;
 void try_list();
