@@ -13,14 +13,13 @@ int main (){
 }
 
 void try_list(){
-	list<int>  int_list;
-	int_list.insert(begin(int_list), 2);
-	int_list.insert(begin(int_list), 4);
-	int_list.insert(begin(int_list), 6);
-	int_list.insert(begin(int_list), 8);
+	myList<int>  int_list;
+	int_list.insert(2);
+	int_list.insert(4);
+	int_list.insert(6);
+	int_list.insert(8);
 
-	for( auto e: int_list){
-		cout << e << ", ";
-	}
+	int_list.display();
+
 	cout << endl;
 }

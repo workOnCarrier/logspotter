@@ -30,7 +30,7 @@ public:
 		cur_pos = m_head;
 	
 		while (cur_pos != NULL ){
-			cout << cur_pos.m_data << " ";
+			cout << cur_pos->m_data << " ";
 			cur_pos = cur_pos->m_next;
 		}
 	}
